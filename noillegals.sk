@@ -1,0 +1,26 @@
+on right click:
+ player is not op
+ set {item} to player's tool
+ {item} is any spawn egg
+ cancel event
+ message "<red> You can't use that!"
+on place of barrier:
+ player is not op
+ cancel event
+ message "<red> You can't place that!"
+on place of bedrock:
+ player is not op
+ cancel event
+ message "<red> You can't place that!"
+on place of end portal frame:
+ player is not op
+ cancel event
+ message "<red> You can't place that!"
+on place of structure void:
+ player is not op
+ cancel event
+ message "<red> You can't place that!"
+on place of structure block:
+ player is not op
+ cancel event
+ message "<red> You can't place that!"
